@@ -18,6 +18,16 @@
 
 ### Встановлення
 
+### Приклад результату
+
+| text | author | tags | page |
+|---|---|---|---|
+| The world as we have created it is a process of our thinking... | Albert Einstein | change, deep-thoughts, thinking, world | 1 |
+| It is our choices, Harry, that show what we truly are... | J.K. Rowling | abilities, choices | 1 |
+| There are only two ways to live your life... | Albert Einstein | inspirational, life, live, miracle, miracles | 1 |
+
+Повний результат — у `output/quotes.csv` та `output/quotes.xlsx` (сотні рядків, автоматична пагінація).
+
 ```powershell
 # створити й активувати віртуальне середовище (рекомендовано)
 python -m venv venv
